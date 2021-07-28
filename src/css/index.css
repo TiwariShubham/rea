@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #9fa5a2;
+    color: white;
+    width: 50%;
+}
+
+div {
+    position: relative;
+}
+
+div button{
+    display: none;
+    position: absolute;
+}
+
+div:hover button {
+    display: block;
+    position: absolute;
+    top: calc(50% - 20px);
+    height: 40px;
+    left: calc(50% - 47px);
+}
+
+div:hover button[data-text='Add property'] {
+    background-color: #7fbb7f;
+    color: #1e1f1e;
+}
+
+div:hover button[data-text='Remove property'] {
+    background-color: #cb3e2a;
+    color: #eee9e9;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+section .logo {
+    height: 50px;
+}
+
+section .property__id {
+    font-size: 1.25rem;
+}
+
+section .main__image {
+    width: 100%;
+}
+
+section .price__text {
+    font-size: 1.5rem;
+    display: inline-block;
+    margin: 20px 0 50px;
+}

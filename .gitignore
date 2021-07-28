@@ -1,0 +1,7 @@
+/*configuration IDE*/
+.idea
+.DS_Store
+
+/*Folders*/
+node_modules
+dist
