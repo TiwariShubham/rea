@@ -7,7 +7,7 @@
     "build:dev": "webpack --env=development",
     "build:prod": "webpack --env=production",
     "start": "npm run build:dev && webpack serve",
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "jest": {
     "moduleNameMapper": {
@@ -22,7 +22,7 @@
         "branches": 80,
         "functions": 80,
         "lines": 80,
-        "statements": -10
+        "statements": 80
       }
     },
     "collectCoverage": true

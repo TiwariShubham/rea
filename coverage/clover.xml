@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1627521437668" clover="3.2.0">
+  <project timestamp="1627521437668" name="All files">
+    <metrics statements="34" coveredstatements="32" conditionals="8" coveredconditionals="5" methods="8" coveredmethods="7" elements="50" coveredelements="44" complexity="0" loc="34" ncloc="34" packages="3" files="3" classes="3"/>
+    <package name="addRemoveProperty">
+      <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="addRemoveProperty.ts" path="/Users/Shubham_MacbookPro/work related/Assignments/rea/src/scripts/modules/addRemoveProperty/addRemoveProperty.ts">
+        <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="18" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="2" type="cond" truecount="2" falsecount="0"/>
+      </file>
+    </package>
+    <package name="buttonEventBinder">
+      <metrics statements="13" coveredstatements="11" conditionals="2" coveredconditionals="1" methods="5" coveredmethods="4"/>
+      <file name="buttonEventBinder.ts" path="/Users/Shubham_MacbookPro/work related/Assignments/rea/src/scripts/modules/buttonEventBinder/buttonEventBinder.ts">
+        <metrics statements="13" coveredstatements="11" conditionals="2" coveredconditionals="1" methods="5" coveredmethods="4"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="10" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="templateRenderer">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="templateRender.ts" path="/Users/Shubham_MacbookPro/work related/Assignments/rea/src/scripts/modules/templateRenderer/templateRender.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="23" count="8" type="stmt"/>
+        <line num="25" count="4" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
